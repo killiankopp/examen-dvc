@@ -1,0 +1,9 @@
+2024-10-12 10:41:33,679 - custom_logger - INFO - Custom logger module initialized.
+2024-10-12 10:43:10,951 - custom_logger - INFO - Custom logger module initialized.
+2024-10-12 10:44:15,968 - custom_logger - INFO - Custom logger module initialized.
+2024-10-12 10:49:48,958 - custom_logger - INFO - Custom logger module initialized.
+2024-10-12 10:49:49,385 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-12 10:49:49,386 - custom_logger - INFO - created directory at: data/processed
+2024-10-12 10:49:49,403 - custom_logger - INFO - Splitted data into training and test sets
+2024-10-12 10:49:49,403 - custom_logger - INFO - X_train shape: (1453, 9), y_train shape: (1453,)
+2024-10-12 10:49:49,403 - custom_logger - INFO - X_test shape: (364, 9), y_test shape: (364,)
