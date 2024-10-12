@@ -1,2 +1,6 @@
 /venv
 /clean_data.csv
+.vscode
+.DS_Store
+.idea
+/.dvc/config
