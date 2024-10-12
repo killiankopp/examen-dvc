@@ -12,7 +12,7 @@ class DataTransformation:
     def train_test_splitting(self):
         data = pd.read_csv(self.config.data_path)
 
-        X = data.drop(columns = ["silica_concentrate"])
+        X = data.drop(columns = ["date", "silica_concentrate"])
         y = data["silica_concentrate"]
 
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
