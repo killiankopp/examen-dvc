@@ -2,11 +2,11 @@ import os
 import joblib
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
-from src.entity import DataModelTrainerConfig
+from src.entity import ModelTrainerConfig
 
 
 class ModelTrainer:
-    def __init__(self, config: DataModelTrainerConfig):
+    def __init__(self, config: ModelTrainerConfig):
         self.config = config
 
     def train(self):

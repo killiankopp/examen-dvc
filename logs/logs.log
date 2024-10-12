@@ -35,3 +35,8 @@
 2024-10-12 17:09:53,244 - custom_logger - INFO - Normalized data
 2024-10-12 17:09:53,244 - custom_logger - INFO - X_train_scaled shape: (1453, 9)
 2024-10-12 17:09:53,244 - custom_logger - INFO - X_test_scaled shape: (364, 9)
+2024-10-12 19:28:37,930 - custom_logger - INFO - Custom logger module initialized.
+2024-10-12 19:28:38,555 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-12 19:29:15,487 - custom_logger - INFO - Custom logger module initialized.
+2024-10-12 19:29:15,964 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-12 19:29:15,964 - custom_logger - INFO - created directory at: data/processed

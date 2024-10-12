@@ -15,7 +15,7 @@ class DataNormalizationConfig:
 
 
 @dataclass(frozen = True)
-class DataModelTrainerConfig:
+class ModelTrainerConfig:
     root_dir: Path
     max_depth: Optional[int] = 10
     n_estimators: Optional[int] = 100
