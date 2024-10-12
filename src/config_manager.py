@@ -1,6 +1,6 @@
 from src.config import CONFIG_FILE_PATH
 from src.common_utils import read_yaml, create_directories
-from src.entity import (DataTransformationConfig, DataNormalizationConfig)
+from src.entity import (DataTransformationConfig, DataNormalizationConfig, DataModelTrainerConfig)
 
 
 class ConfigurationManager:
@@ -31,3 +31,14 @@ class ConfigurationManager:
         )
 
         return data_normalization_config
+
+    def get_data_trainer_config(self) -> DataModelTrainerConfig:
+        config = self.config.data_model_trainer
+
+        create_directories([config.root_dir])
+
+        data_model_trainer_config = DataModelTrainerConfig(
+            root_dir = config.root_dir
+        )
+
+        return data_model_trainer_config

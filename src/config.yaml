@@ -4,3 +4,6 @@ data_transformation:
 
 data_normalization:
   root_dir: data/processed
+
+data_model_trainer:
+  root_dir: data/processed
