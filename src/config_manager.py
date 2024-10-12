@@ -1,6 +1,6 @@
 from src.config import CONFIG_FILE_PATH
 from src.common_utils import read_yaml, create_directories
-from src.entity import (DataTransformationConfig)
+from src.entity import (DataTransformationConfig, DataNormalizationConfig)
 
 
 class ConfigurationManager:
@@ -16,7 +16,18 @@ class ConfigurationManager:
 
         data_transformation_config = DataTransformationConfig(
             root_dir = config.root_dir,
-            data_path = config.data_path,
+            data_path = config.data_path
         )
 
         return data_transformation_config
+
+    def get_data_normalization_config(self) -> DataNormalizationConfig:
+        config = self.config.data_normalization
+
+        create_directories([config.root_dir])
+
+        data_normalization_config = DataNormalizationConfig(
+            root_dir = config.root_dir
+        )
+
+        return data_normalization_config

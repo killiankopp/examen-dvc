@@ -1,3 +1,6 @@
 data_transformation: 
   root_dir: data/processed
   data_path: data/raw/raw.csv
+
+data_normalization:
+  root_dir: data/processed
