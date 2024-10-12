@@ -3,5 +3,5 @@
 .idea
 /venv
 /.dvc/config
-/data
-!/data/*.dvc"
+/data/raw
+/data/processed
