@@ -19,6 +19,6 @@ class ModelTrainer:
             random_state = 42
         )
 
-        rf.fit(X_train, y_train.values)
+        rf.fit(X_train, y_train.values.ravel())
 
         joblib.dump(rf, os.path.join(self.config.root_dir, self.config.model_name))
