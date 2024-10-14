@@ -38,7 +38,11 @@ class ConfigurationManager:
         create_directories([config.root_dir])
 
         model_trainer_config = ModelTrainerConfig(
-            root_dir = config.root_dir
+            root_dir = config.root_dir,
+            data_path = config.data_path,
+            n_estimators = config.n_estimators,
+            max_depth = config.max_depth,
+            model_name = config.model_name
         )
 
         return model_trainer_config

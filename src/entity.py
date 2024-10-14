@@ -17,6 +17,7 @@ class DataNormalizationConfig:
 @dataclass(frozen = True)
 class ModelTrainerConfig:
     root_dir: Path
-    max_depth: Optional[int] = 10
-    n_estimators: Optional[int] = 100
-    model_name: str = "rf"
+    data_path: Path
+    n_estimators: int
+    max_depth: int
+    model_name: str

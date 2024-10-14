@@ -70,3 +70,15 @@
 2024-10-13 12:29:19,564 - custom_logger - INFO - Custom logger module initialized.
 2024-10-13 12:29:20,030 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
 2024-10-13 12:29:20,030 - custom_logger - INFO - created directory at: data/processed
+2024-10-14 09:30:28,657 - custom_logger - INFO - Custom logger module initialized.
+2024-10-14 09:30:29,359 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-14 09:30:29,359 - custom_logger - INFO - created directory at: models
+2024-10-14 09:31:57,222 - custom_logger - INFO - Custom logger module initialized.
+2024-10-14 09:31:57,703 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-14 09:31:57,703 - custom_logger - INFO - created directory at: models
+2024-10-14 09:33:15,872 - custom_logger - INFO - Custom logger module initialized.
+2024-10-14 09:33:16,351 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-14 09:33:16,351 - custom_logger - INFO - created directory at: models
+2024-10-14 09:33:53,311 - custom_logger - INFO - Custom logger module initialized.
+2024-10-14 09:33:53,781 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-14 09:33:53,781 - custom_logger - INFO - created directory at: models
