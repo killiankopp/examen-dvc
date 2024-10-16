@@ -1,4 +1,9 @@
-data_transformation: 
+dagshub:
+  repo_owner: killiankopp
+  repo_name: examen-dvc
+  mlflow: True
+
+data_transformation:
   root_dir: data/processed
   data_path: data/raw/raw.csv
 
@@ -11,3 +16,10 @@ model_trainer:
   model_name: rf
   n_estimators: 100
   max_depth: 10
+
+model_evaluation:
+  root_dir: metrics
+  X_test_path: data/processed/X_test.csv
+  y_test_path: data/processed/y_test.csv
+  model_path: models/model.joblib
+  metric_file_name: metrics/metrics.json

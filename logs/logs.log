@@ -82,3 +82,65 @@
 2024-10-14 09:33:53,311 - custom_logger - INFO - Custom logger module initialized.
 2024-10-14 09:33:53,781 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
 2024-10-14 09:33:53,781 - custom_logger - INFO - created directory at: models
+2024-10-16 10:51:35,460 - custom_logger - INFO - Custom logger module initialized.
+2024-10-16 10:51:37,245 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-10-16 10:51:37,250 - dagshub - INFO - Accessing as killiankopp
+2024-10-16 10:51:37,437 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/your_username/your_repo "HTTP/1.1 404 Not Found"
+2024-10-16 10:51:37,439 - dagshub - INFO - Repository your_repo doesn't exist, creating it under current user.
+2024-10-16 10:51:37,605 - httpx - INFO - HTTP Request: POST https://dagshub.com/api/v1/user/repos "HTTP/1.1 422 unknown"
+2024-10-16 10:51:37,606 - dagshub.upload.wrapper - ERROR - Response (422):
+b'{"message":""}'
+2024-10-16 11:02:46,472 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:03:19,184 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:11:22,447 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:11:48,470 - custom_logger - INFO - Custom logger module initialized.
+2024-10-16 11:11:49,279 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:11:49,280 - custom_logger - INFO - created directory at: data/processed
+2024-10-16 11:12:22,578 - custom_logger - INFO - Custom logger module initialized.
+2024-10-16 11:12:23,370 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:12:23,591 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-10-16 11:12:23,595 - dagshub - INFO - Accessing as killiankopp
+2024-10-16 11:12:23,912 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-10-16 11:12:23,917 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-10-16 11:12:23,918 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-10-16 11:12:23,920 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:12:23,921 - custom_logger - INFO - created directory at: models
+2024-10-16 11:14:57,582 - custom_logger - INFO - Custom logger module initialized.
+2024-10-16 11:14:58,366 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:14:58,603 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-10-16 11:14:58,608 - dagshub - INFO - Accessing as killiankopp
+2024-10-16 11:14:58,953 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-10-16 11:14:58,958 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-10-16 11:14:58,958 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-10-16 11:14:58,961 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:15:27,544 - custom_logger - INFO - Custom logger module initialized.
+2024-10-16 11:15:28,323 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:15:28,486 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-10-16 11:15:28,488 - dagshub - INFO - Accessing as killiankopp
+2024-10-16 11:15:28,774 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-10-16 11:15:28,778 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-10-16 11:15:28,778 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-10-16 11:15:28,781 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 11:15:28,781 - custom_logger - INFO - created directory at: metrics
+2024-10-16 12:19:46,446 - custom_logger - INFO - Custom logger module initialized.
+2024-10-16 12:19:47,252 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 12:19:47,252 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-16 12:19:47,460 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-10-16 12:19:47,463 - dagshub - INFO - Accessing as killiankopp
+2024-10-16 12:19:47,855 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-10-16 12:19:47,860 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-10-16 12:19:47,860 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-10-16 12:19:47,863 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 12:19:47,864 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-16 12:19:47,864 - custom_logger - INFO - created directory at: metrics
+2024-10-16 12:24:48,205 - custom_logger - INFO - Custom logger module initialized.
+2024-10-16 12:24:49,015 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 12:24:49,015 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-16 12:24:49,202 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-10-16 12:24:49,206 - dagshub - INFO - Accessing as killiankopp
+2024-10-16 12:24:49,457 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-10-16 12:24:49,461 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-10-16 12:24:49,462 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-10-16 12:24:49,465 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-16 12:24:49,465 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-16 12:24:49,466 - custom_logger - INFO - created directory at: metrics

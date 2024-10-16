@@ -5,7 +5,6 @@ J'ai utilisé une partie des scripts du repo suivant :
 https://github.com/DataScientest/overview_mlops_wine_quality_student
 
 
-
 ```bash       
 ├── examen_dvc          
 │   ├── data       
