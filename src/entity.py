@@ -23,7 +23,8 @@ class DataNormalizationConfig:
 @dataclass(frozen = True)
 class ModelTrainerConfig:
     root_dir: Path
-    data_path: Path
+    X_train_path: Path
+    y_train_path: Path
     n_estimators: int
     max_depth: int
     model_name: str

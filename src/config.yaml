@@ -12,8 +12,9 @@ data_normalization:
 
 model_trainer:
   root_dir: models
-  data_path: data/processed
-  model_name: rf
+  X_train_path: data/processed/X_train.csv
+  y_train_path: data/processed/y_train.csv
+  model_name: model.joblib
   n_estimators: 100
   max_depth: 10
 
@@ -23,3 +24,4 @@ model_evaluation:
   y_test_path: data/processed/y_test.csv
   model_path: models/model.joblib
   metric_file_name: metrics/metrics.json
+  mlflow_uri: https://dagshub.com/killiankopp/examen-dvc.mlflow

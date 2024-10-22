@@ -53,7 +53,8 @@ class ConfigurationManager:
 
         model_trainer_config = ModelTrainerConfig(
             root_dir = config.root_dir,
-            data_path = config.data_path,
+            X_train_path = config.X_train_path,
+            y_train_path = config.y_train_path,
             n_estimators = config.n_estimators,
             max_depth = config.max_depth,
             model_name = config.model_name
@@ -63,8 +64,7 @@ class ConfigurationManager:
 
     def get_model_evaluate_config(self) -> ModelEvaluationConfig:
         config = self.config.model_evaluation
-        dagshub_config = self.config.dagshub
-        params = self.params.ElasticNet
+        params = self.params.RandomForestRegressor
 
         create_directories([config.root_dir])
 
@@ -74,7 +74,7 @@ class ConfigurationManager:
             y_test_path = config.y_test_path,
             model_path = config.model_path,
             metric_file_name = config.metric_file_name,
-            mlflow_uri = f'https://dagshub.com/{dagshub_config.repo_owner}/{dagshub_config.repo_name}',
+            mlflow_uri = config.mlflow_uri,
             all_params=params
         )
 
