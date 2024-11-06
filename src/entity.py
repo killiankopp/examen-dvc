@@ -25,9 +25,17 @@ class ModelTrainerConfig:
     root_dir: Path
     X_train_path: Path
     y_train_path: Path
+    n_estimators_grid: list
+    max_depth_grid: list
+    best_model_name: str
+    model_name: str
     n_estimators: int
     max_depth: int
-    model_name: str
+    criterion: str
+    min_samples_split: int
+    min_samples_leaf: int
+    max_features: int
+    random_state: int
 
 
 @dataclass(frozen = True)

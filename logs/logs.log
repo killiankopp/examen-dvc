@@ -41,3 +41,173 @@
 2024-10-22 10:24:20,684 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
 2024-10-22 10:24:20,684 - custom_logger - INFO - created directory at: metrics
 2024-10-22 10:24:20,976 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-10-22 13:35:28,944 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 13:35:28,948 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 13:35:28,949 - custom_logger - INFO - created directory at: metrics
+2024-10-22 13:35:36,409 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-10-22 13:40:13,775 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 13:40:13,776 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 13:40:13,776 - custom_logger - INFO - created directory at: data/processed
+2024-10-22 13:40:13,800 - custom_logger - INFO - Splitted data into training and test sets
+2024-10-22 13:40:13,801 - custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
+2024-10-22 13:40:13,801 - custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
+2024-10-22 13:40:17,406 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 13:40:17,407 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 13:40:17,407 - custom_logger - INFO - created directory at: data/processed
+2024-10-22 13:40:17,422 - custom_logger - INFO - Normalized data
+2024-10-22 13:40:17,423 - custom_logger - INFO - X_train_scaled shape: (1453, 8)
+2024-10-22 13:40:17,423 - custom_logger - INFO - X_test_scaled shape: (364, 8)
+2024-10-22 13:40:20,401 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 13:40:20,402 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 13:40:20,403 - custom_logger - INFO - created directory at: models
+2024-10-22 13:40:25,197 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 13:40:25,198 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 13:40:25,198 - custom_logger - INFO - created directory at: metrics
+2024-10-22 13:40:35,680 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-10-22 14:18:36,269 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 14:18:36,271 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 14:18:36,271 - custom_logger - INFO - created directory at: metrics
+2024-10-22 14:18:36,302 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /killiankopp/examen-dvc.mlflow/api/2.0/mlflow/runs/create
+2024-10-22 14:18:36,623 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-10-22 14:22:07,553 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 14:22:07,554 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 14:22:07,554 - custom_logger - INFO - created directory at: metrics
+2024-10-22 14:22:07,793 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-10-22 14:25:04,067 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-22 14:25:04,067 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-22 14:25:04,067 - custom_logger - INFO - created directory at: metrics
+2024-10-22 14:25:04,305 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-06 17:28:35,444 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 17:28:40,017 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 17:28:40,018 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 17:28:40,019 - custom_logger - INFO - created directory at: models
+2024-11-06 17:30:15,823 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 17:30:16,349 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 17:30:16,350 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 17:30:16,350 - custom_logger - INFO - created directory at: models
+2024-11-06 17:30:20,251 - custom_logger - INFO - Grid Search
+2024-11-06 17:30:20,251 - custom_logger - INFO - Meilleurs paramètres :
+2024-11-06 17:33:35,206 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 17:33:35,736 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 17:33:35,737 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 17:33:35,737 - custom_logger - INFO - created directory at: models
+2024-11-06 17:37:53,633 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 17:37:54,156 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 17:37:54,156 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 17:37:54,156 - custom_logger - INFO - created directory at: models
+2024-11-06 17:38:41,017 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 17:38:41,547 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 17:38:41,548 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 17:38:41,548 - custom_logger - INFO - created directory at: models
+2024-11-06 20:47:25,610 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 20:47:26,597 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 20:47:26,599 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 20:47:26,599 - custom_logger - INFO - created directory at: models
+2024-11-06 20:48:01,452 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 20:48:02,132 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 20:48:02,133 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 20:48:02,133 - custom_logger - INFO - created directory at: models
+2024-11-06 20:48:45,680 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 20:48:46,353 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 20:48:46,354 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 20:48:46,354 - custom_logger - INFO - created directory at: models
+2024-11-06 22:17:59,966 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:18:00,898 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:18:00,899 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:18:00,899 - custom_logger - INFO - created directory at: models
+2024-11-06 22:18:22,577 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:18:24,022 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:18:24,023 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:18:24,253 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-11-06 22:18:24,258 - dagshub - INFO - Accessing as killiankopp
+2024-11-06 22:18:24,494 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-11-06 22:18:24,496 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-11-06 22:18:24,497 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-11-06 22:18:24,499 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:18:24,499 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:18:24,499 - custom_logger - INFO - created directory at: metrics
+2024-11-06 22:18:25,173 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-06 22:21:45,294 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:21:46,131 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:21:46,132 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:21:46,293 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-11-06 22:21:46,296 - dagshub - INFO - Accessing as killiankopp
+2024-11-06 22:21:46,514 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-11-06 22:21:46,517 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-11-06 22:21:46,518 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-11-06 22:21:46,521 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:21:46,521 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:21:46,521 - custom_logger - INFO - created directory at: metrics
+2024-11-06 22:21:47,074 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-06 22:29:09,489 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:29:10,016 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:29:10,016 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:29:10,016 - custom_logger - INFO - created directory at: models
+2024-11-06 22:29:40,359 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:29:41,152 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:29:41,153 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:29:41,384 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-11-06 22:29:41,389 - dagshub - INFO - Accessing as killiankopp
+2024-11-06 22:29:41,641 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-11-06 22:29:41,645 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-11-06 22:29:41,645 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-11-06 22:29:41,648 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:29:41,648 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:29:41,648 - custom_logger - INFO - created directory at: metrics
+2024-11-06 22:29:42,247 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-06 22:38:07,348 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:38:07,861 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:38:07,862 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:38:07,862 - custom_logger - INFO - created directory at: models
+2024-11-06 22:38:14,786 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:38:15,597 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:38:15,597 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:38:15,792 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-11-06 22:38:15,796 - dagshub - INFO - Accessing as killiankopp
+2024-11-06 22:38:16,057 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-11-06 22:38:16,060 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-11-06 22:38:16,061 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-11-06 22:38:16,064 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:38:16,065 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:38:16,066 - custom_logger - INFO - created directory at: metrics
+2024-11-06 22:38:16,734 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-06 22:43:33,330 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:43:34,143 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:43:34,144 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:43:34,309 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-11-06 22:43:34,311 - dagshub - INFO - Accessing as killiankopp
+2024-11-06 22:43:34,540 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-11-06 22:43:34,544 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-11-06 22:43:34,545 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-11-06 22:43:34,548 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:43:34,550 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:43:34,550 - custom_logger - INFO - created directory at: metrics
+2024-11-06 22:43:35,229 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-06 22:57:16,132 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 22:57:16,675 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 22:57:16,676 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 22:57:16,676 - custom_logger - INFO - created directory at: models
+2024-11-06 22:57:16,678 - custom_logger - INFO - n estimator: 600
+2024-11-06 22:57:16,678 - custom_logger - INFO - max depth: 10
+2024-11-06 23:30:11,400 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 23:30:12,302 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 23:30:12,303 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 23:30:12,303 - custom_logger - INFO - created directory at: models
+2024-11-06 23:31:35,912 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 23:31:36,432 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 23:31:36,433 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 23:31:36,433 - custom_logger - INFO - created directory at: models
+2024-11-06 23:31:36,438 - custom_logger - INFO - n estimator: 600
+2024-11-06 23:31:36,438 - custom_logger - INFO - max depth: 10
+2024-11-06 23:32:19,159 - custom_logger - INFO - Custom logger module initialized.
+2024-11-06 23:32:20,145 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 23:32:20,146 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 23:32:20,336 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-11-06 23:32:20,338 - dagshub - INFO - Accessing as killiankopp
+2024-11-06 23:32:20,559 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-11-06 23:32:20,563 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-11-06 23:32:20,564 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-11-06 23:32:20,567 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-06 23:32:20,568 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-06 23:32:20,568 - custom_logger - INFO - created directory at: metrics
+2024-11-06 23:32:21,233 - custom_logger - INFO - json file saved at: metrics/metrics.json

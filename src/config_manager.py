@@ -48,6 +48,7 @@ class ConfigurationManager:
 
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
+        params = self.params.RandomForestRegressor
 
         create_directories([config.root_dir])
 
@@ -55,9 +56,17 @@ class ConfigurationManager:
             root_dir = config.root_dir,
             X_train_path = config.X_train_path,
             y_train_path = config.y_train_path,
-            n_estimators = config.n_estimators,
-            max_depth = config.max_depth,
-            model_name = config.model_name
+            n_estimators_grid = config.n_estimators_grid,
+            max_depth_grid = config.max_depth_grid,
+            best_model_name = config.best_model_name,
+            model_name = config.model_name,
+            n_estimators = params.n_estimators,
+            max_depth = params.max_depth,
+            criterion = params.criterion,
+            min_samples_split = params.min_samples_split,
+            min_samples_leaf = params.min_samples_leaf,
+            max_features = params.max_features,
+            random_state = params.random_state
         )
 
         return model_trainer_config
