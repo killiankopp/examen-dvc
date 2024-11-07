@@ -60,8 +60,6 @@ class ConfigurationManager:
             max_depth_grid = config.max_depth_grid,
             best_model_name = config.best_model_name,
             model_name = config.model_name,
-            n_estimators = params.n_estimators,
-            max_depth = params.max_depth,
             criterion = params.criterion,
             min_samples_split = params.min_samples_split,
             min_samples_leaf = params.min_samples_leaf,

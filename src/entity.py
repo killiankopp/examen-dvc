@@ -29,8 +29,6 @@ class ModelTrainerConfig:
     max_depth_grid: list
     best_model_name: str
     model_name: str
-    n_estimators: int
-    max_depth: int
     criterion: str
     min_samples_split: int
     min_samples_leaf: int

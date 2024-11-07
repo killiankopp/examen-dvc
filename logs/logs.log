@@ -229,3 +229,39 @@
 2024-11-07 10:55:09,261 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
 2024-11-07 10:55:09,263 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
 2024-11-07 10:55:09,263 - custom_logger - INFO - created directory at: models
+2024-11-07 11:32:26,602 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 11:32:27,307 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 11:32:27,309 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 11:32:27,309 - custom_logger - INFO - created directory at: data/processed
+2024-11-07 11:32:27,324 - custom_logger - INFO - Normalized data
+2024-11-07 11:32:27,324 - custom_logger - INFO - X_train_scaled shape: (1453, 8)
+2024-11-07 11:32:27,324 - custom_logger - INFO - X_test_scaled shape: (364, 8)
+2024-11-07 11:32:27,446 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 11:32:28,020 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 11:32:28,021 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 11:32:28,021 - custom_logger - INFO - created directory at: models
+2024-11-07 11:47:41,786 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 11:47:42,395 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 11:47:42,395 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 11:47:42,395 - custom_logger - INFO - created directory at: data/processed
+2024-11-07 11:47:42,410 - custom_logger - INFO - Normalized data
+2024-11-07 11:47:42,410 - custom_logger - INFO - X_train_scaled shape: (1453, 8)
+2024-11-07 11:47:42,410 - custom_logger - INFO - X_test_scaled shape: (364, 8)
+2024-11-07 12:38:44,938 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 12:38:45,895 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 12:38:45,896 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 12:38:45,897 - custom_logger - INFO - created directory at: data/processed
+2024-11-07 12:38:45,914 - custom_logger - INFO - Splitted data into training and test sets
+2024-11-07 12:38:45,914 - custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
+2024-11-07 12:38:45,914 - custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
+2024-11-07 12:38:46,068 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 12:38:46,491 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 12:38:46,491 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 12:38:46,491 - custom_logger - INFO - created directory at: data/processed
+2024-11-07 12:38:46,504 - custom_logger - INFO - Normalized data
+2024-11-07 12:38:46,505 - custom_logger - INFO - X_train_scaled shape: (1453, 8)
+2024-11-07 12:38:46,505 - custom_logger - INFO - X_test_scaled shape: (364, 8)
+2024-11-07 12:38:46,640 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 12:38:47,485 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 12:38:47,486 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 12:38:47,486 - custom_logger - INFO - created directory at: models

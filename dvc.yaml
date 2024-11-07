@@ -2,18 +2,27 @@ stages:
   transformation:
     cmd: python step_01_transformation.py
     deps:
-    - data/raw
+    - data/raw/raw.csv
     - step_01_transformation.py
     outs:
-    - data/processed
+    - data/processed/X_test.csv
+    - data/processed/y_test.csv
+    - data/processed/X_train.csv
+    - data/processed/y_train.csv
   normalization:
     cmd: python step_02_normalization.py
     deps:
+    - data/processed/X_test.csv
+    - data/processed/X_train.csv
     - step_02_normalization.py
+    outs:
+    - data/processed/X_test_scaled.csv
+    - data/processed/X_train_scaled.csv
   gridsearch:
     cmd: python step_03_gridsearch.py
     deps:
-    - data/processed
+    - data/processed/X_train_scaled.csv
+    - data/processed/y_train.csv
     - step_03_gridsearch.py
     outs:
     - models/model.pkl

@@ -18,9 +18,12 @@ class ModelTrainer:
         logger.info(f"n estimator: {self.config.n_estimators}")
         logger.info(f"max depth: {self.config.max_depth}")
 
+        with open(os.path.join(self.config.root_dir, self.config.best_model_name), 'rb') as f:
+            best_params = joblib.load(f)
+
         rf = RandomForestRegressor(
-            n_estimators = self.config.n_estimators,
-            max_depth = self.config.max_depth,
+            n_estimators = best_params['n_estimators'],
+            max_depth = best_params['max_depth'],
             criterion = self.config.criterion,
             max_features = self.config.max_features,
             min_samples_split = self.config.min_samples_split,
