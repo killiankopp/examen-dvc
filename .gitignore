@@ -5,3 +5,4 @@
 /.dvc/config
 /data/raw
 /data/processed
+/models
