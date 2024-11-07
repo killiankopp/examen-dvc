@@ -15,11 +15,11 @@ class ModelTrainer:
         X_train = pd.read_csv(self.config.X_train_path)
         y_train = pd.read_csv(self.config.y_train_path)
 
-        logger.info(f"n estimator: {self.config.n_estimators}")
-        logger.info(f"max depth: {self.config.max_depth}")
-
         with open(os.path.join(self.config.root_dir, self.config.best_model_name), 'rb') as f:
             best_params = joblib.load(f)
+
+        logger.info(f"n estimator: {best_params['n_estimators']}")
+        logger.info(f"max depth: {best_params['max_depth']}")
 
         rf = RandomForestRegressor(
             n_estimators = best_params['n_estimators'],

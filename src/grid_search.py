@@ -34,9 +34,7 @@ class ModelTrainer:
 
         grid_search.fit(X_train, y_train.values.ravel())
 
-        best_rf = grid_search.best_estimator_
-
-        joblib.dump(best_rf, os.path.join(self.config.root_dir, self.config.best_model_name))
+        joblib.dump(grid_search.best_params_, os.path.join(self.config.root_dir, self.config.best_model_name))
 
         print("Meilleurs paramètres :", grid_search.best_params_)
         print("Meilleur score (R^2) :", grid_search.best_score_)

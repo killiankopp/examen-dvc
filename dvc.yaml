@@ -26,3 +26,22 @@ stages:
     - step_03_gridsearch.py
     outs:
     - models/model.pkl
+  train:
+    cmd: python step_04_training.py
+    deps:
+    - data/processed/X_train_scaled.csv
+    - data/processed/y_train.csv
+    - models/model.pkl
+    - step_04_training.py
+    outs:
+    - models/model.joblib
+  evaluate:
+    cmd: python step_05_evaluate.py
+    deps:
+    - data/processed/X_test_scaled.csv
+    - data/processed/y_test.csv
+    - models/model.joblib
+    - step_05_evaluate.py
+    metrics:
+    - metrics/metrics.json:
+        cache: false
