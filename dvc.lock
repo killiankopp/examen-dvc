@@ -18,3 +18,10 @@ stages:
       md5: 67454827489cf3c87a0665cbba0b97da.dir
       size: 295687
       nfiles: 4
+  normalization:
+    cmd: python step_02_normalization.py
+    deps:
+    - path: step_02_normalization.py
+      hash: md5
+      md5: cc776fd304f718cbeb7903e9efe538b2
+      size: 307

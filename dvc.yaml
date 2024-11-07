@@ -6,3 +6,7 @@ stages:
     - step_01_transformation.py
     outs:
     - data/processed
+  normalization:
+    cmd: python step_02_normalization.py
+    deps:
+    - step_02_normalization.py

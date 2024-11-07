@@ -218,3 +218,10 @@
 2024-11-07 10:32:13,090 - custom_logger - INFO - Splitted data into training and test sets
 2024-11-07 10:32:13,090 - custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
 2024-11-07 10:32:13,090 - custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
+2024-11-07 10:46:17,422 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 10:46:18,179 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 10:46:18,180 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 10:46:18,180 - custom_logger - INFO - created directory at: data/processed
+2024-11-07 10:46:18,197 - custom_logger - INFO - Normalized data
+2024-11-07 10:46:18,197 - custom_logger - INFO - X_train_scaled shape: (1453, 8)
+2024-11-07 10:46:18,197 - custom_logger - INFO - X_test_scaled shape: (364, 8)
