@@ -1,0 +1,8 @@
+stages:
+  transformation:
+    cmd: python step_01_transformation.py
+    deps:
+    - data/raw
+    - step_01_transformation.py
+    outs:
+    - data/processed

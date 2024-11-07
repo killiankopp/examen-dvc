@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  transformation:
+    cmd: python step_01_transformation.py
+    deps:
+    - path: data/raw
+      hash: md5
+      md5: 41dee78430cbebe25be9986bbb599d4a.dir
+      size: 333757
+      nfiles: 1
+    - path: step_01_transformation.py
+      hash: md5
+      md5: 0c97a20d6dffb331464ca106f181d2aa
+      size: 324
+    outs:
+    - path: data/processed
+      hash: md5
+      md5: 67454827489cf3c87a0665cbba0b97da.dir
+      size: 295687
+      nfiles: 4

@@ -211,3 +211,10 @@
 2024-11-06 23:32:20,568 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
 2024-11-06 23:32:20,568 - custom_logger - INFO - created directory at: metrics
 2024-11-06 23:32:21,233 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-07 10:32:11,864 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 10:32:13,071 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 10:32:13,072 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 10:32:13,073 - custom_logger - INFO - created directory at: data/processed
+2024-11-07 10:32:13,090 - custom_logger - INFO - Splitted data into training and test sets
+2024-11-07 10:32:13,090 - custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
+2024-11-07 10:32:13,090 - custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
