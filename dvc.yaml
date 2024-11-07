@@ -10,3 +10,10 @@ stages:
     cmd: python step_02_normalization.py
     deps:
     - step_02_normalization.py
+  gridsearch:
+    cmd: python step_03_gridsearch.py
+    deps:
+    - data/processed
+    - step_03_gridsearch.py
+    outs:
+    - models/model.pkl

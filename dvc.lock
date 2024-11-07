@@ -25,3 +25,20 @@ stages:
       hash: md5
       md5: cc776fd304f718cbeb7903e9efe538b2
       size: 307
+  gridsearch:
+    cmd: python step_03_gridsearch.py
+    deps:
+    - path: data/processed
+      hash: md5
+      md5: 67454827489cf3c87a0665cbba0b97da.dir
+      size: 295687
+      nfiles: 4
+    - path: step_03_gridsearch.py
+      hash: md5
+      md5: d2e6bb38dc6d6340c3deacaaaa2b2804
+      size: 252
+    outs:
+    - path: models/model.pkl
+      hash: md5
+      md5: e0b31623ee294e7bdfe6252e319b41c9
+      size: 23143297

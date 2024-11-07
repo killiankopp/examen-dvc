@@ -225,3 +225,7 @@
 2024-11-07 10:46:18,197 - custom_logger - INFO - Normalized data
 2024-11-07 10:46:18,197 - custom_logger - INFO - X_train_scaled shape: (1453, 8)
 2024-11-07 10:46:18,197 - custom_logger - INFO - X_test_scaled shape: (364, 8)
+2024-11-07 10:55:08,339 - custom_logger - INFO - Custom logger module initialized.
+2024-11-07 10:55:09,261 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-07 10:55:09,263 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-07 10:55:09,263 - custom_logger - INFO - created directory at: models
