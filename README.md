@@ -25,3 +25,12 @@ https://github.com/DataScientest/overview_mlops_wine_quality_student
 ├── step_04_training.py
 └── step_05_evaluate.py
 ```
+
+## Todo
+- [x] compléter le dvc.yaml (schéma qui n'apparaît pas)
+- [ ] Votre dossier src manque les dossiers data et models avec les scripts bien rangés
+- [ ] Il manque le dossier .dvc/config config contenant les informations par rapport au stockage distant. 
+- [ ] Il manque le dossier models avec le model entraîné sous format .pkl. 
+- [ ] Le fichier dvc.lock ne contient pas l'information du stockage de chaque étape de la pipeline. 
+- [ ] Puis votre onglet data n'affiche pas les données. 
+- [ ] Et enfin il n'y a pas de fichier csv avec les prédictions. 
