@@ -24,3 +24,99 @@ stages:
       hash: md5
       md5: 0cd0f8482cccd590f351f58f7d58ffd4
       size: 96
+  transformation:
+    cmd: python step_01_transformation.py
+    deps:
+    - path: data/raw/raw.csv
+      hash: md5
+      md5: 617b56af2992376d5c3e91ad80823898
+      size: 333757
+    - path: step_01_transformation.py
+      hash: md5
+      md5: 0c97a20d6dffb331464ca106f181d2aa
+      size: 324
+    outs:
+    - path: data/processed/X_test.csv
+      hash: md5
+      md5: 0e96e0ba3291417bed53b54b1f652a9d
+      size: 52866
+    - path: data/processed/X_train.csv
+      hash: md5
+      md5: 9c692a66c13c842645c9050e64165de0
+      size: 210339
+    - path: data/processed/y_test.csv
+      hash: md5
+      md5: f4af67a3212ab00e1efdd89341223f56
+      size: 6473
+    - path: data/processed/y_train.csv
+      hash: md5
+      md5: adf073bca29464cdfad732520f736bde
+      size: 26009
+  normalization:
+    cmd: python step_02_normalization.py
+    deps:
+    - path: data/processed/X_test.csv
+      hash: md5
+      md5: 0e96e0ba3291417bed53b54b1f652a9d
+      size: 52866
+    - path: data/processed/X_train.csv
+      hash: md5
+      md5: 9c692a66c13c842645c9050e64165de0
+      size: 210339
+    - path: step_02_normalization.py
+      hash: md5
+      md5: cc776fd304f718cbeb7903e9efe538b2
+      size: 307
+    outs:
+    - path: data/processed/X_test_scaled.csv
+      hash: md5
+      md5: c8047c6c00e1259f55f8fd6026cbe833
+      size: 55911
+    - path: data/processed/X_train_scaled.csv
+      hash: md5
+      md5: 5e0658a0a1b735dba6a681d2358aabf2
+      size: 222321
+  gridsearch:
+    cmd: python step_03_gridsearch.py
+    deps:
+    - path: data/processed/X_train_scaled.csv
+      hash: md5
+      md5: 5e0658a0a1b735dba6a681d2358aabf2
+      size: 222321
+    - path: data/processed/y_train.csv
+      hash: md5
+      md5: adf073bca29464cdfad732520f736bde
+      size: 26009
+    - path: step_03_gridsearch.py
+      hash: md5
+      md5: d2e6bb38dc6d6340c3deacaaaa2b2804
+      size: 252
+    outs:
+    - path: models/model.pkl
+      hash: md5
+      md5: d231765ce29f5a41fa4591869f7b38fd
+      size: 48
+  train:
+    cmd: python step_04_training.py
+    deps:
+    - path: data/processed/X_train_scaled.csv
+      hash: md5
+      md5: 5e0658a0a1b735dba6a681d2358aabf2
+      size: 222321
+    - path: data/processed/y_train.csv
+      hash: md5
+      md5: adf073bca29464cdfad732520f736bde
+      size: 26009
+    - path: models/model.pkl
+      hash: md5
+      md5: d231765ce29f5a41fa4591869f7b38fd
+      size: 48
+    - path: step_04_training.py
+      hash: md5
+      md5: 5989e8c635d17b56eeaf224ed1d27159
+      size: 249
+    outs:
+    - path: models/model.joblib
+      hash: md5
+      md5: 59a71a81a960087f0846c36d1ef84a24
+      size: 9489937

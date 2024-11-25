@@ -343,3 +343,27 @@
 2024-11-07 13:08:24,673 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
 2024-11-07 13:08:24,673 - custom_logger - INFO - created directory at: metrics
 2024-11-07 13:08:25,151 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2024-11-25 16:02:10,353 - custom_logger - INFO - Custom logger module initialized.
+2024-11-25 16:02:14,958 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-25 16:02:14,958 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-25 16:02:14,958 - custom_logger - INFO - created directory at: data/processed
+2024-11-25 16:02:14,999 - custom_logger - INFO - Splitted data into training and test sets
+2024-11-25 16:02:14,999 - custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
+2024-11-25 16:02:14,999 - custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
+2024-11-25 16:02:15,143 - custom_logger - INFO - Custom logger module initialized.
+2024-11-25 16:02:15,571 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-25 16:02:15,572 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-25 16:02:15,572 - custom_logger - INFO - created directory at: data/processed
+2024-11-25 16:02:15,586 - custom_logger - INFO - Normalized data
+2024-11-25 16:02:15,586 - custom_logger - INFO - X_train_scaled shape: (1453, 8)
+2024-11-25 16:02:15,586 - custom_logger - INFO - X_test_scaled shape: (364, 8)
+2024-11-25 16:02:15,715 - custom_logger - INFO - Custom logger module initialized.
+2024-11-25 16:02:16,843 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-25 16:02:16,845 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-25 16:02:16,848 - custom_logger - INFO - created directory at: models
+2024-11-25 16:02:36,249 - custom_logger - INFO - Custom logger module initialized.
+2024-11-25 16:02:36,785 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-11-25 16:02:36,786 - custom_logger - INFO - yaml file: src/params.yaml loaded successfully
+2024-11-25 16:02:36,786 - custom_logger - INFO - created directory at: models
+2024-11-25 16:02:36,789 - custom_logger - INFO - n estimator: 600
+2024-11-25 16:02:36,789 - custom_logger - INFO - max depth: 10
