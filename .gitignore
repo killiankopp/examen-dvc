@@ -3,3 +3,4 @@
 .idea
 /venv
 /data/raw
+/.dvc/config
