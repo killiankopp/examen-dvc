@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from custom_logger import logger
+from src.custom_logger import logger
 import json
 from ensure import ensure_annotations
 from box import ConfigBox

@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
 import pandas as pd
 
-from custom_logger import logger
+from src.custom_logger import logger
 from src.entity import ModelTrainerConfig
 
 

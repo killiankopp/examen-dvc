@@ -10,7 +10,7 @@ import joblib
 from urllib.parse import urlparse
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-from custom_logger import logger
+from src.custom_logger import logger
 from src.config_manager import ConfigurationManager
 from src.entity import ModelEvaluationConfig
 from src.common_utils import save_json

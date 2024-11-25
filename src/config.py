@@ -1,4 +1,7 @@
 from pathlib import Path
 
-CONFIG_FILE_PATH = Path("src/config.yaml")
-PARAMS_FILE_PATH = Path("src/params.yaml")
+CURRENT_FILE = Path(__file__).resolve()
+PROJECT_ROOT = CURRENT_FILE.parent
+
+CONFIG_FILE_PATH = PROJECT_ROOT / "config.yaml"
+PARAMS_FILE_PATH = PROJECT_ROOT / "params.yaml"

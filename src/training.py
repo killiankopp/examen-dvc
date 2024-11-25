@@ -3,7 +3,7 @@ import joblib
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
 
-from custom_logger import logger
+from src.custom_logger import logger
 from src.entity import ModelTrainerConfig
 
 

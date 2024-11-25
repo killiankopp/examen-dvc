@@ -367,3 +367,62 @@
 2024-11-25 16:02:36,786 - custom_logger - INFO - created directory at: models
 2024-11-25 16:02:36,789 - custom_logger - INFO - n estimator: 600
 2024-11-25 16:02:36,789 - custom_logger - INFO - max depth: 10
+2024-11-25 16:22:41,251 - custom_logger - INFO - Custom logger module initialized.
+2024-11-25 16:40:38,372 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 16:42:08,267 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 16:59:31,841 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:00:12,227 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:00:38,625 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:01:12,172 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:01:12,638 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:01:12,639 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:01:12,639 - src.custom_logger - INFO - created directory at: data/processed
+2024-11-25 17:01:12,653 - src.custom_logger - INFO - Splitted data into training and test sets
+2024-11-25 17:01:12,653 - src.custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
+2024-11-25 17:01:12,653 - src.custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
+2024-11-25 17:03:20,960 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:03:21,425 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:03:21,425 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:03:21,425 - src.custom_logger - INFO - created directory at: data/processed
+2024-11-25 17:03:21,439 - src.custom_logger - INFO - Splitted data into training and test sets
+2024-11-25 17:03:21,439 - src.custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
+2024-11-25 17:03:21,439 - src.custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
+2024-11-25 17:04:26,801 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:04:27,264 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:04:27,265 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:04:27,265 - src.custom_logger - INFO - created directory at: data/processed
+2024-11-25 17:04:27,279 - src.custom_logger - INFO - Splitted data into training and test sets
+2024-11-25 17:04:27,279 - src.custom_logger - INFO - X_train shape: (1453, 8), y_train shape: (1453,)
+2024-11-25 17:04:27,279 - src.custom_logger - INFO - X_test shape: (364, 8), y_test shape: (364,)
+2024-11-25 17:05:05,108 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:05:05,541 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:05:05,541 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:05:05,541 - src.custom_logger - INFO - created directory at: data/processed
+2024-11-25 17:05:05,554 - src.custom_logger - INFO - Normalized data
+2024-11-25 17:05:05,554 - src.custom_logger - INFO - X_train_scaled shape: (1453, 8)
+2024-11-25 17:05:05,554 - src.custom_logger - INFO - X_test_scaled shape: (364, 8)
+2024-11-25 17:05:05,695 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:05:06,225 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:05:06,225 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:05:06,225 - src.custom_logger - INFO - created directory at: models
+2024-11-25 17:05:25,895 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:05:26,443 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:05:26,443 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:05:26,443 - src.custom_logger - INFO - created directory at: models
+2024-11-25 17:05:26,446 - src.custom_logger - INFO - n estimator: 600
+2024-11-25 17:05:26,447 - src.custom_logger - INFO - max depth: 10
+2024-11-25 17:05:28,918 - src.custom_logger - INFO - Custom logger module initialized.
+2024-11-25 17:05:30,411 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:05:30,411 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:05:30,414 - dagshub.auth.tokens - INFO - Removed expired tokens from the token cache
+2024-11-25 17:05:56,033 - httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+2024-11-25 17:05:56,214 - httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+2024-11-25 17:05:56,409 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-11-25 17:05:56,412 - dagshub - INFO - Accessing as killiankopp
+2024-11-25 17:05:56,618 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/killiankopp/examen-dvc "HTTP/1.1 200 OK"
+2024-11-25 17:05:56,625 - dagshub - INFO - Initialized MLflow to track repo "killiankopp/examen-dvc"
+2024-11-25 17:05:56,626 - dagshub - INFO - Repository killiankopp/examen-dvc initialized!
+2024-11-25 17:05:56,631 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/config.yaml loaded successfully
+2024-11-25 17:05:56,633 - src.custom_logger - INFO - yaml file: /Users/killian/Karned/Formation/datascientest-mlops-dvc_examen_github/src/params.yaml loaded successfully
+2024-11-25 17:05:56,633 - src.custom_logger - INFO - created directory at: metrics
+2024-11-25 17:05:57,129 - src.custom_logger - INFO - json file saved at: metrics/metrics.json
